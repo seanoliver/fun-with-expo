@@ -6,16 +6,19 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
+    "web": "expo start --web",
+    "ts:check": "tsc"
+  },1
   "dependencies": {
     "@expo/metro-runtime": "~3.1.1",
+    "@types/react": "^18.2.48",
     "expo": "~50.0.4",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.2",
-    "react-native-web": "~0.19.6"
+    "react-native-web": "~0.19.6",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
